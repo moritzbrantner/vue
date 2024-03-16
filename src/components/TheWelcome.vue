@@ -12,11 +12,18 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
-
+    <template #heading>Getting Started</template>
     Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    provides all information to get started.
+    I want to document my experience with Vue in this project. I hope you find it useful.
+
+    <p>
+      The first thing I did was create a new Vue project with Bun. I used the following command: <br />
+      <code>bun create vue@latest</code>
+      I'm using <a href="https://bun.sh/" target="_blank" rel="noopener">Bun</a> instead of npm or yarn.
+      My experience with Bun has been great so far, and you can read more about it <a href="https://brantner.dev/blog/why-i-use-bun/" target="_blank" rel="noopener">here</a>.
+    </p>
   </WelcomeItem>
 
   <WelcomeItem>
